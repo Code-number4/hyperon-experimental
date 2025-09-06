@@ -1,0 +1,7 @@
+;; Facts
+(instance Socrates Man)
+
+;; Rules
+(=>
+    (instance ?X Man)
+    (attribute ?X Mortal))
